@@ -1,8 +1,14 @@
 {
   "name": "gulp-coffeescript-concat",
   "version": "0.0.1",
-  "description": "",
+  "description": "Gulp plugin that helps you to concatenate coffee scripts files according their dependencies automatically and manually",
   "main": "index.js",
+  "keywords": [
+    "gulpplugin",
+    "coffee-script",
+    "concat",
+    "dependencies"
+  ],
   "scripts": {
     "test": "mocha"
   },
@@ -17,7 +23,6 @@
   },
   "homepage": "https://github.com/artem328/gulp-coffeescript-concat#readme",
   "dependencies": {
-    "callsite": "^1.0.0",
     "coffeescript-concat": "^1.0.14",
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
