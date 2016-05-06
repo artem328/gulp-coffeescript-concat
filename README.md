@@ -22,7 +22,7 @@ gulp.task('coffee', function() {
 });
 ```
 
-This will concat coffeescript files in right order for resolving class dependencies. For more information about dependency resolving you can get at [coffeescript-concat page](https://github.com/fairfieldt/coffeescript-concat##coffeescript-concat-performs-4-operations).
+This will concat coffeescript files in right order for resolving class dependencies. For more information about dependency resolving you can get at [coffeescript-concat page](https://github.com/fairfieldt/coffeescript-concat#coffeescript-concat-performs-4-operations).
 
 ## Licence
 
