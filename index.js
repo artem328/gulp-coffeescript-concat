@@ -29,9 +29,12 @@ function coffeeScriptConcat(file) {
 
         // adding file to list of files that will be concatenated
         // if it has no added yet
-        if (files.indexOf(file.path) === -1)
-            files.push(file.path);
-
+        if (files.indexOf(file.path) === -1) {
+            // and change windows backslash directory separators
+            // to unix system slash separators, because
+            // coffeescript-concat understands only unix ones
+            files.push(file.path.replace(/\\/g, '/'));
+        }
         callback();
     }
 
